@@ -93,7 +93,9 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         (4256000, uint256("0x0000000024cfefc26f5c55f04e78a27816081b29b3fd0cb4ff812032bf95befd"))
         (7080827, uint256("0x000000000051756ae28645408c5220cb31ef78435c9f379ac49acb5156cac000"))
         (10500000, uint256("0x000000000008463f55fceff6eb187cddf12a11b172ded8ad5e9a4486f7b866e0"))
+        (11739370, uint256("0x0000035440327f2cfec2783b314dbcd04f8e2a4572091a5be5ea1ee9578a0cc9"))
         (11739374, uint256("0x00000201b5e1a538984a7828c4d09cd51acb9bd212d32309e9919a7928e779c4"))
+
 
         ;
 static const Checkpoints::CCheckpointData data = {
@@ -193,14 +195,15 @@ public:
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == hashMainGenesisBlock);
 
-        vSeeds.push_back(CDNSSeedData("seed1.qrknet.info", "seed1.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed2.qrknet.info", "seed2.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed3.qrknet.info", "seed3.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed4.qrknet.info", "seed4.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed5.qrknet.info", "seed5.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed6.qrknet.info", "seed6.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed7.qrknet.info", "seed7.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed8.qrknet.info", "seed8.qrknet.info"));
+        vSeeds.push_back(CDNSSeedData("1.117.52.81", "1.117.52.81"));
+        vSeeds.push_back(CDNSSeedData("101.33.213.154", "101.33.213.154"));
+        vSeeds.push_back(CDNSSeedData("101.35.91.253", "101.35.91.253"));
+        vSeeds.push_back(CDNSSeedData("101.43.94.246", "101.43.94.246"));
+        vSeeds.push_back(CDNSSeedData("193.87.75.153", "193.87.75.153"));
+        vSeeds.push_back(CDNSSeedData("194.160.80.211", "194.160.80.211"));
+        vSeeds.push_back(CDNSSeedData("37.187.155.185", "37.187.155.185"));
+        vSeeds.push_back(CDNSSeedData("47.92.129.82", "47.92.129.82"));
+        vSeeds.push_back(CDNSSeedData("161.97.131.155", "161.97.131.155"));        
 
         //base58Prefixes[PUBKEY_ADDRESS] = list_of(58);
         //base58Prefixes[SCRIPT_ADDRESS] = list_of(9);
