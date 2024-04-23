@@ -95,7 +95,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         (10500000, uint256("0x000000000008463f55fceff6eb187cddf12a11b172ded8ad5e9a4486f7b866e0"))
         (11739370, uint256("0x0000035440327f2cfec2783b314dbcd04f8e2a4572091a5be5ea1ee9578a0cc9"))
         (11739374, uint256("0x00000201b5e1a538984a7828c4d09cd51acb9bd212d32309e9919a7928e779c4"))
-
+        (11739375, uint256("0x000003ee6666750dd0ad49899b879bea6f618fc26c848d57f33d02664aabaf1c"))
 
         ;
 static const Checkpoints::CCheckpointData data = {
@@ -229,7 +229,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
-        nStakeMinAge = 30 * 24 * 60 * 60;//about 30 days
+        nStakeMinAge = 10 * 60;//about 10 minutes
 
         strSporkKey = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
         strSporkKeyOld = "04B433E6598390C992F4F022F20D3B4CBBE691652EE7C48243B81701CBDB7CC7D7BF0EE09E154E6FCBF2043D65AF4E9E97B89B5DBAF830D83B9B7F469A6C45A717";
